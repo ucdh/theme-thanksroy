@@ -15,15 +15,19 @@
 
         <?php fire_plugin_hook('public_footer', array('view' => $this)); ?>
 
-    </footer><!-- end footer -->
-
+    </footer><!-- end footer -->	
     <script type="text/javascript">
     jQuery(document).ready(function () {
         Omeka.showAdvancedForm();
         Omeka.skipNav();
-        Omeka.megaMenu('.no-touchevents #primary-nav');
+        Omeka.megaMenu();
+        ThanksRoy.moveNavOnResize();
         ThanksRoy.mobileMenu();
     });
+	$.getJSON("/themes/thanksroy/javascripts/timeline.json", function(json) {
+		timeline = new TL.Timeline('timeline-embed',json);
+});
+	
     </script>
 
 </body>
