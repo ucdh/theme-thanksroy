@@ -23,7 +23,8 @@
 
     <!-- Stylesheets -->
     <?php
-    queue_css_file(array('iconfonts','style'));
+    
+	queue_css_file(array('iconfonts','style','timeline'));
     queue_css_url('//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic');
     echo head_css();
 
@@ -59,45 +60,49 @@
         a:hover, a:active, a:focus {
             color: <?php echo thanksroy_brighten($linkColor, -40); ?>;
         }
-
+        
         .button, button,
         input[type="reset"],
         input[type="submit"],
         input[type="button"],
-        .pagination_next a,
+        .pagination_next a, 
         .pagination_previous a {
           background-color: <?php echo $buttonColor; ?>;
           color: <?php echo $buttonTextColor; ?> !important;
         }
-
+        
         #search-form input[type="text"] {
             border-color: <?php echo $buttonColor; ?>
         }
-
-        @media (max-width:768px) {
-            #primary-nav li {
-                background-color: <?php echo thanksroy_brighten($buttonColor, 40); ?>;
-            }
-
-            #primary-nav li ul li {
-                background-color: <?php echo thanksroy_brighten($buttonColor, 20); ?>;
-            }
-
-            #primary-nav li li li {
-                background-color: <?php echo thanksroy_brighten($buttonColor, -20); ?>;
-            }
+        
+        .mobile li { 
+            background-color: <?php echo thanksroy_brighten($buttonColor, 40); ?>;
+        }
+        
+        .mobile li ul li {
+            background-color: <?php echo thanksroy_brighten($buttonColor, 20); ?>;
+        }
+        
+        .mobile li li li {
+            background-color: <?php echo thanksroy_brighten($buttonColor, -20); ?>;
         }
     </style>
     <!-- JavaScripts -->
-    <?php
+    <?php 
     queue_js_file('vendor/modernizr');
     queue_js_file('vendor/selectivizr', 'javascripts', array('conditional' => '(gte IE 6)&(lte IE 8)'));
     queue_js_file('vendor/respond');
     queue_js_file('vendor/jquery-accessibleMegaMenu');
     queue_js_file('globals');
     queue_js_file('default');
-    echo head_js();
+	queue_js_file('timeline');
+	
+    echo head_js(); 
     ?>
+	<?php queue_js_string("
+      timeline = new TL.Timeline('timeline-embed',
+        'https://docs.google.com/spreadsheets/d/1cWqQBZCkX9GpzFtxCWHoqFXCHg-ylTVUWlnrdYMzKUI/pubhtml');
+"); ?>
 </head>
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
@@ -107,9 +112,10 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title"><?php echo link_to_home_page(theme_logo()); ?></div>
         </header>
-
+            
+        <div class="menu-button button">Menu</div>
+            
         <div id="wrap">
-            <div class="menu-button button">Menu</div>
             <nav id="primary-nav" role="navigation">
                 <?php echo public_nav_main(array('role' => 'navigation')); ?>
                 <div id="search-container" role="search">
