@@ -25,6 +25,10 @@
         ThanksRoy.moveNavOnResize();
         ThanksRoy.mobileMenu();
     });
+        $.getJSON("/themes/default/javascripts/timeline.json", function(json) {
+                              timeline = new TL.Timeline('timeline-embed',json);
+});
+
     </script>
 
 </body>
