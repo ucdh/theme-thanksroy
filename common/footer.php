@@ -24,9 +24,6 @@
         ThanksRoy.moveNavOnResize();
         ThanksRoy.mobileMenu();
     });
-	$.getJSON("/themes/thanksroy/javascripts/timeline.json", function(json) {
-		timeline = new TL.Timeline('timeline-embed',json);
-});
 	
     </script>
 
