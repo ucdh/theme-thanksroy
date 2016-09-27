@@ -1,0 +1,62 @@
+{
+    "title": {
+        "media": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Karl_Popper.jpg",
+          "caption": "Karl Popper",
+          "credit": "wikipedia"
+        },
+        "text": {
+          "headline": "Popper and Prior at Canterbury<br/> 1930 - 1939",
+          "text": "<p>This is a test of using json as a source for the timeline tool.</p>"
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "/files/fullsize/aa1368b7fbc0bed5b521d239deecd9fe.jpg",
+          "caption": "Letter"         
+        },
+        "start_date": {
+          "month": "1",
+          "day": "11",
+          "year": "1937"
+        },
+        "text": {
+          "headline": "Letter",
+          "text": "<p>A letter to Roy Bruce from the Ministry of Defence.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://youtu.be/fSrO91XO1Ck",
+          "caption": "",
+          "credit": ""
+        },
+        "start_date": {
+          "month": "12",
+          "day": "7",
+          "year": "1940"
+        },
+        "text": {
+          "headline": "YouTube Example",
+          "text": "<p>Here is a YouTube example.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://twitter.com/#!/ArjunaSoriano/status/164181156147900416",
+          "caption": "A tweet.",
+          "credit": ""
+        },
+        "start_date": {
+          "month": "5",
+          "day": "6",
+          "year": "1940"
+        },
+        "text": {
+          "headline": "Tweet Example",
+          "text": "<p>Here is a Tweet example.</p>"
+        }
+	}
+    ]
+}

@@ -24,7 +24,7 @@
     <!-- Stylesheets -->
     <?php
     
-	queue_css_file(array('iconfonts','style'));
+	queue_css_file(array('iconfonts','style','timeline'));
     queue_css_url('//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic');
     echo head_css();
 
@@ -95,7 +95,7 @@
     queue_js_file('vendor/jquery-accessibleMegaMenu');
     queue_js_file('globals');
     queue_js_file('default');
-	
+	queue_js_file('timeline');
 	
     echo head_js(); 
     ?>
