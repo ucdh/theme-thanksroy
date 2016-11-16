@@ -944,8 +944,7 @@ only screen and (max-device-width: 500px) {
     cursor: pointer;
     z-index: 9;
     position: absolute;
-    /*bottom: 1px;*/
-	top: 2px;
+    bottom: 1px;
     left: 1px;
     font-size: 10px;
     line-height: 10px;
@@ -1088,7 +1087,7 @@ only screen and (max-device-width: 500px) {
     margin: 0;
     width: 100%;
     height: 68% !important;
-    background-color: #fff /*rgba(229, 229, 229, .15)*/;
+    background-color: rgba(229, 229, 229, .15);
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
     -webkit-transition: height 500ms cubic-bezier(.77, 0, .175, 1), width 1000ms cubic-bezier(.77, 0, .175, 1);
@@ -1124,7 +1123,7 @@ only screen and (max-device-width: 500px) {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #d9d9d9;
     z-index: 5;
     content: " ";
     position: absolute;
@@ -1146,7 +1145,7 @@ only screen and (max-device-width: 500px) {
     bottom: 0;
     height: 6px;
     width: 6px;
-    background-color: #fff;
+    background-color: #9cb2d3;
     z-index: 8;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1192,10 +1191,6 @@ only screen and (max-device-width: 500px) {
     overflow: hidden;
     position: relative
 }
-.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text:hover {
-	color: #9cb2d3
-}
-
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p {
     display: -webkit-box;
@@ -1210,7 +1205,7 @@ only screen and (max-device-width: 500px) {
     overflow: hidden;
     font-weight: 400;
     margin: 0;
-    color: #fff;
+    color: #9cb2d3;
     position: relative
 }
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout:after,
@@ -1250,7 +1245,7 @@ only screen and (max-device-width: 500px) {
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"] {
     display: block;
     font-size: 24px;
-    color: #fff;
+    color: #9cb2d3;
     margin-top: 0
 }
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container .tl-icon-wikipedia {
@@ -1266,23 +1261,22 @@ only screen and (max-device-width: 500px) {
     font-size: 12px
 }
 .tl-timemarker:hover .tl-timemarker-timespan {
-    background-color: #9cb2d3; /*rgba(191, 191, 191, .15)*/
-	color: #9cb2d3
+    background-color: rgba(191, 191, 191, .15)
 }
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-timespan-content {
     /*background-color: #bfbfbf*/
 }
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-line-left,
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-line-right {
-    border-color: #9cb2d3
+    border-color: #a6a6a6
 }
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-line-left:after,
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-line-right:after {
-    background-color: #9cb2d3
+    background-color: #3d3d3d
 }
 .tl-timemarker:hover .tl-timemarker-content-container {
     /*background-color: #bfbfbf;*/
-    border-color: #9cb2d3;
+    border-color: #a6a6a6;
     -webkit-transition: height 250ms cubic-bezier(.77, 0, .175, 1), width 250ms cubic-bezier(.77, 0, .175, 1);
     -moz-transition: height 250ms cubic-bezier(.77, 0, .175, 1), width 250ms cubic-bezier(.77, 0, .175, 1);
     -o-transition: height 250ms cubic-bezier(.77, 0, .175, 1), width 250ms cubic-bezier(.77, 0, .175, 1);
@@ -1292,7 +1286,7 @@ only screen and (max-device-width: 500px) {
     width: 200px
 }
 .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
-    color: #9cb2d3
+    color: #fff
 }
 .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout:after {
     background: -moz-linear-gradient(top, rgba(191, 191, 191, 0)0, #bfbfbf 80%);
@@ -1308,7 +1302,7 @@ only screen and (max-device-width: 500px) {
 }
 .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^=tl-icon-],
 .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"] {
-    color: #9cb2d3
+    color: #fff
 }
 .tl-timemarker:hover.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout:after {
     background: -moz-linear-gradient(top, rgba(255, 255, 255, 0)0, #fff 80%);
@@ -1321,29 +1315,29 @@ only screen and (max-device-width: 500px) {
 }
 .tl-timemarker:hover.tl-timemarker-active .tl-timemarker-line-left,
 .tl-timemarker:hover.tl-timemarker-active .tl-timemarker-line-right {
-    border-color: #9cb2d3
+    border-color: #fff
 }
 .tl-timemarker:hover.tl-timemarker-active .tl-timemarker-line-left:after,
 .tl-timemarker:hover.tl-timemarker-active .tl-timemarker-line-right:after {
-    background-color: #9cb2d3
+    background-color: #fff
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-timespan {
-    background-color: #fff;
+    background-color: #9cb2d3;
     z-index: 8
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-timespan .tl-timemarker-timespan-content {
-    background-color: #fff
+    background-color: #9cb2d3
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-left,
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right {
-    border-color: #fff;
+    border-color: #9cb2d3;
     border-width: 1px;
     z-index: 8;
     /*box-shadow: 0 1px 3px rgba(145, 145, 145, .5)*/
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-left:after,
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right:after {
-    background-color: #fff
+    background-color: #9cb2d3
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
     background-color: transparent;
@@ -1450,7 +1444,7 @@ only screen and (max-device-width: 500px) {
 }
 .tl-timeera .tl-timeera-background {
     position: absolute;
-    background-color: #fff;
+    background-color: #28a6c3;
     width: 100%;
     height: 100%;
     opacity: 1
@@ -1459,7 +1453,7 @@ only screen and (max-device-width: 500px) {
     background-color: #c34528
 }
 .tl-timeera.tl-timeera-color1 .tl-timeera-background {
-    background-color: #fff
+    background-color: #28a6c3
 }
 .tl-timeera.tl-timeera-color2 .tl-timeera-background {
     background-color: #2832c3
@@ -1624,7 +1618,7 @@ only screen and (max-device-width: 500px) {
     color: #fff;
     width: 1px;
     overflow: hidden;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #bfbfbf;
     text-align: center
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major.tl-timeaxis-animate .tl-timeaxis-tick,
@@ -1654,8 +1648,8 @@ only screen and (max-device-width: 500px) {
     background-color: transparent;
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick {
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 14px;
     color: #fff;
     width: 100px;
     margin-left: -50px
@@ -1668,9 +1662,9 @@ only screen and (max-device-width: 500px) {
     margin-left: 50px
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick {
-    font-size: 12px;
-    line-height: 15px;
-    color: #fff;
+    font-size: 11px;
+    line-height: 13px;
+    color: #bfbfbf;
     width: 50px;
     margin-left: -25px
 }
@@ -1685,7 +1679,7 @@ only screen and (max-device-width: 500px) {
     font-size: 9px;
     line-height: 9px;
     margin-top: -2px;
-    color: #fff
+    color: #e6e6e6
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick:before {
     font-size: 9px;

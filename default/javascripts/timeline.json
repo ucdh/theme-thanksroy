@@ -2,60 +2,60 @@
     "title": {
         "media": {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Karl_Popper.jpg",
-          "caption": "Karl Popper",
-          "credit": "wikipedia"
+          "caption": "",
+          "credit": ""
         },
         "text": {
-          "headline": "Popper and Prior at Canterbury<br/> 1930 - 1939",
-          "text": "<p>This is a test of using json as a source for the timeline tool.</p>"
+          "headline": "Popper and Prior at Canterbury<br/>",
+          "text": "<p>Use the arrows to scroll through the timeline.</p>"
         }
     },
     "events": [
       {
         "media": {
-          "url": "/files/fullsize/aa1368b7fbc0bed5b521d239deecd9fe.jpg",
-          "caption": "Letter"         
+          "url": "/files/fullsize/e0172aef261e1248f97f332116e44d80.jpg",
+          "caption": ""         
         },
         "start_date": {
-          "month": "1",
-          "day": "11",
-          "year": "1937"
+          "month": "5",
+          "day": "3",
+          "year": "1973"
         },
         "text": {
-          "headline": "Letter",
-          "text": "<p>A letter to Roy Bruce from the Ministry of Defence.</p>"
+          "headline": "Discipline of dissent at Canterbury",
+          "text": "<p>A newspaper article written by Karl Popper for the University of Canterbury Centenary.</p>"
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/fSrO91XO1Ck",
+          "url": "files/fullsize/a5d5b78343b337fc156706b5b02a9768.jpg",
           "caption": "",
           "credit": ""
         },
         "start_date": {
           "month": "12",
           "day": "7",
-          "year": "1940"
+          "year": "1973"
         },
         "text": {
-          "headline": "YouTube Example",
-          "text": "<p>Here is a YouTube example.</p>"
+          "headline": "Karl Popper departs Christchurch",
+          "text": "<p>A photograph of Karl Popper at the Christchurch Airport.</p>"
         }
       },
       {
         "media": {
-          "url": "https://twitter.com/#!/ArjunaSoriano/status/164181156147900416",
-          "caption": "A tweet.",
+          "url": "files/fullsize/f457fc9e6a6d9a542fedeb1c1e0c3425.jpg",
+          "caption": "",
           "credit": ""
         },
         "start_date": {
-          "month": "5",
-          "day": "6",
-          "year": "1940"
+          "month": "2",
+          "day": "10",
+          "year": "1960"
         },
         "text": {
-          "headline": "Tweet Example",
-          "text": "<p>Here is a Tweet example.</p>"
+          "headline": "On the Sources of Knowledge and of Ignorance",
+          "text": "<p>A manuscript published by Karl Popper.</p>"
         }
 	}
     ]

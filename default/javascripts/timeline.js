@@ -11761,7 +11761,7 @@ TL.TimeScale = TL.Class.extend({
 
         options = TL.Util.mergeData({ // establish defaults
             display_width: 500,
-            screen_multiplier: 3,
+            screen_multiplier: 1,
             max_rows: null
         }, options);
 
